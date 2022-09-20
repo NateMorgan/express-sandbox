@@ -7,7 +7,7 @@ class Student{
   }
 }
 
-studentArr = [
+let studentArr = [
   new Student("Nathaniel","Morgan","Boston","Captain Morgan"),
   new Student("Rachel","Hassett","Unknown","Hellfire Elmo"),
   new Student("Emily","Smith","NJ","Cool Alumni"),
