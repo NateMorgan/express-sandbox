@@ -9,15 +9,14 @@
 <body>
   <h1>Students</h1>
   <ul>
-
     <% students.forEach(student => { %>
       <li>
-        <%= student.lastName %>
+        <%=student.lastName%>
         ,
-        <%= student.firstName %>
-        aka "
-        <%= student.nickname %>
-        "
+        <%=student.firstName%>
+        (aka "
+        <%=student.nickname%>
+        ")
       </li>
     <% }) %>
   </ul>

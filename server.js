@@ -18,7 +18,11 @@ app.get("/student",function(req,res){
   })
 })
 
+app.get("/",function(req,res){
+  res.redirect('/student')
+})
+
 // Tell the app to listen on port 3000
-app.listen(3000, function(req,res){
+app.listen(3000, function(){
   console.log("listening on port 3000")
 })
